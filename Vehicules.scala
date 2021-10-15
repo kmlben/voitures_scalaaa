@@ -1,6 +1,6 @@
 Vehicules.scala
 
 sealed abstract class Vehicule[A]{}
-case class Car() extends Vehicule[T]{}
-case class Motorbike() extends Vehicule[T]{}
-case class Boat() extends Vehicule[T]{}
+case class Car() extends Vehicule(){}
+case class Motorbike() extends Vehicule(){}
+case class Boat() extends Vehicule(){}
